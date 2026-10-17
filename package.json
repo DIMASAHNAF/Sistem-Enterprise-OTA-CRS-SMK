@@ -1,0 +1,38 @@
+{
+  "name": "travel-smk-enterprise",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:seed": "node scripts/seed.mjs"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "@types/qrcode": "^1.5.6",
+    "bcryptjs": "^3.0.2",
+    "clsx": "^2.1.1",
+    "framer-motion": "^14.3.0",
+    "gsap": "^3.15.0",
+    "jose": "^6.0.8",
+    "lucide-react": "^1.16.0",
+    "next": "^15.1.7",
+    "qrcode": "^1.5.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.7.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^22.13.4",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.30",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.7.3"
+  }
+}
